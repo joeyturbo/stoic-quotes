@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #7699d9;
+  background-color: #476191;
   font-family: 'Raleway', sans-serif;
   color: white;
 }
@@ -19,14 +19,14 @@ h1 {
   margin: 30px auto;
   max-width: 400px;
   padding: 20px;
-  border: 1px red solid;
+  /* border: 1px red solid; */
   display: flex;
   flex-direction: column;
 }
 
 .image-container {
-  height: 300px;
-  border: 1px solid blue;
+  max-height: 300px;
+  /* border: 1px solid blue; */
   margin-bottom: 10px;
 }
 
@@ -38,8 +38,13 @@ h1 {
   color: white;
   cursor: pointer;
   margin-bottom: 10px;
+  border-radius: 10px;
 }
 
 .btn:hover {
   background-color: #773232;
+}
+
+.quote-block {
+  text-align: center;
 }
